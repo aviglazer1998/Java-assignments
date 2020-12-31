@@ -3,6 +3,7 @@
 public class Book extends Item {
 	private String title;
 	private String author;
+	private String genre;
 	private boolean ebook;
 	private  double b_cost;
 	private  double e_cost;
@@ -10,6 +11,7 @@ public class Book extends Item {
 	private boolean physical_book_issue=false;
 	private int number_of_copies;
 	private int book_sold=0;
+
 
 	private int ebook_sold=0;
 
